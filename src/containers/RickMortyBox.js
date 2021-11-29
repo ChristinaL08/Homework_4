@@ -28,7 +28,7 @@ const RickMortyBox = () => {
     };
 
     const incrementSelectedCharacterId = () => {
-        if (selectedCharacterId >= 90){
+        if (selectedCharacterId >= 826){
             return;
         }
         setSelectedCharacterId(selectedCharacterId + 1);
