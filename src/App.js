@@ -1,9 +1,13 @@
-import './App.css';import PokeBox from './containers/PokeBox';
+import './App.css';
+import RickMortyBox from './containers/RickMortyBox';
 
 
 function App() {
   return (
-   <PokeBox/>
+    <>
+   <RickMortyBox/>  
+    </>
+   
   );
 }
 
